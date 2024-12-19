@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(216, 47, 47);
+}
+.bank{
+    width: 400px;
+    border-radius: 20px;
+    background-color: rgb(141, 39, 70);
+    box-shadow: 0 4px 10px rgb(131, 125, 125);
+    overflow: hidden;
+}
+.app{
+    color: bisque;
+    align-items: center;
+    font-family: monospace;
+    font-size: 20px;
+}
+.label{
+    display: block;
+    background-color: rgb(226, 134, 134);
+    gap: 20px;
+    padding: 15px;
+    font-size: large;
+    font-style: italic;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,0.5fr);
+    background-color: rgb(226, 134, 134);
+    gap: 20px;
+    padding: 15px;
+}
+.btn{
+    background-color: brown;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 60px;
+    height: 25px;
+}
+.btn:hover{
+    color: coral;
+}
+.balance{
+    color: brown;
+    font-size: larger;
+}
+.transaction{
+    color: rgba(231, 50, 110, 0.774);
+    font-size: larger;
+}
+.bbtn{
+    background-color: brown;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 90px;
+}
