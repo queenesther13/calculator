@@ -41,7 +41,7 @@ body{
     color: beige;
     font-size: large;
 }
-.btn-0{
+#button-0{
     font-size: x-large; 
     color: rgb(214, 147, 142);
     grid-column: span 2;
@@ -51,10 +51,4 @@ body{
 .btn-equal{
     font-size: x-large; 
     color: rgb(245, 92, 92);
-}
-.btn-dot{
-    font-size: xx-large; 
-    color: rgb(245, 92, 92);
-    background-color: rgba(235, 118, 118, 0.849);
-    border-radius: 10px;
 }
